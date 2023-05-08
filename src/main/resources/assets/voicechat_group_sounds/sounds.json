@@ -1,12 +1,12 @@
 {
     "join_group": {
         "sounds": [
-            "voicechat:user_joining_group"
+            "voicechat_group_sounds:user_joining_group"
         ]
     },
     "leave_group": {
         "sounds": [
-            "voicechat:user_leaving_group"
+            "voicechat_group_sounds:user_leaving_group"
         ]
     }
 }

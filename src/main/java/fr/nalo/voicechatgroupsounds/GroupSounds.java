@@ -13,8 +13,8 @@ public class GroupSounds implements ModInitializer {
 	public static final String MOD_ID = "voicechat_group_sounds";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
-	public static final ResourceLocation SOUND_JOIN_GROUP = new ResourceLocation("join_group");
-	public static final ResourceLocation SOUND_LEAVE_GROUP = new ResourceLocation("leave_group");
+	public static final ResourceLocation SOUND_JOIN_GROUP = new ResourceLocation(MOD_ID, "join_group");
+	public static final ResourceLocation SOUND_LEAVE_GROUP = new ResourceLocation(MOD_ID, "leave_group");
 
 	public static SoundEvent soundJoinGroupEvent = new SoundEvent(SOUND_JOIN_GROUP);
 	public static SoundEvent soundLeaveGroupEvent = new SoundEvent(SOUND_LEAVE_GROUP);
