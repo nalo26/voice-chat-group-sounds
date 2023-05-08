@@ -1,6 +1,6 @@
-package com.example.voicechatmod.mixin;
+package fr.nalo.voicechatgroupsounds.mixin;
 
-import com.example.voicechatmod.ExampleMod;
+import fr.nalo.voicechatgroupsounds.GroupSounds;
 import net.minecraft.client.gui.screens.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
@@ -12,7 +12,7 @@ public class ExampleMixin {
 
     @Inject(at = @At("HEAD"), method = "init")
     private void init(CallbackInfo info) {
-        ExampleMod.LOGGER.info("Example mixin");
+        GroupSounds.LOGGER.info("Example mixin");
     }
 
 }

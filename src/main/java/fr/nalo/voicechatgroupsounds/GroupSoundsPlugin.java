@@ -1,17 +1,17 @@
-package com.example.voicechatmod;
+package fr.nalo.voicechatgroupsounds;
 
 import de.maxhenkel.voicechat.api.VoicechatApi;
 import de.maxhenkel.voicechat.api.VoicechatPlugin;
 import de.maxhenkel.voicechat.api.events.EventRegistration;
 
-public class ExampleVoicechatPlugin implements VoicechatPlugin {
+public class GroupSoundsPlugin implements VoicechatPlugin {
 
     /**
      * @return the unique ID for this voice chat plugin
      */
     @Override
     public String getPluginId() {
-        return ExampleMod.MOD_ID;
+        return GroupSounds.MOD_ID;
     }
 
     /**
@@ -21,7 +21,7 @@ public class ExampleVoicechatPlugin implements VoicechatPlugin {
      */
     @Override
     public void initialize(VoicechatApi api) {
-        ExampleMod.LOGGER.info("Example voice chat plugin initialized!");
+        GroupSounds.LOGGER.info("Example voice chat plugin initialized!");
     }
 
     /**
